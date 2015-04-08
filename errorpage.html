@@ -3,15 +3,42 @@
 <html>
 <head>
 <meta charset= "utf-8">
+<link href='http://fonts.googleapis.com/css?family=Antic+Slab' rel='stylesheet' type='text/css'>
 <style>
+body {
+  font-family: 'Antic Slab', serif;
+  background-image: url('hexellence.png')
+  margin: 0;
+}
 #questionmark {
-  width: 400px;
+  width: 45%;
   background-image: url('icon.png');
   height: 400px;
+  text-align: center;
+  font-size: 320px;
+  color: white;
+  float: left;
+}
+#caption {
+  width: 45%;
+  float: left;
 }
 #centerelement {
-  width: 400px;
+  text-align: center;
+  width: 35%;
   margin: 0 auto;
+  border: 1px solid #333;
+  background-color: white;
+  font-size: 1.5em;
+  overflow: auto;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  font-size: 2em;
+  padding: 3px;
+  margin-bottom: 50px;
 }
 
 </style>
@@ -23,9 +50,10 @@
 <div id="centerelement">
 <div id="questionmark">
 ? </div>
-
+<div id="caption">
 <div id="errortext"> 404 </div>
 <div id="errormessage"> We can't find what you're looking for. Email help@gomarca.com for assistance. </div>
+</div>
 </div>
 </body>
 
